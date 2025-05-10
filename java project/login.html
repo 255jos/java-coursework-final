@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="login">
+        <div class="login-container">
+            <h1>Log In to Decora</h1>
+            <form class="loginform" id="loginform">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required aria-label="Email" placeholder="Enter your email address">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required aria-label="Password" placeholder="Enter your password">
+                <div class="checkbox">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Remember Me</label>
+                </div>
+                <button type="submit" aria-label="Sign in">Sign In</button>
+            </form>
+            <div class="message" id="message"></div>
+            <div class="login-links">
+                <a href="#" aria-label="Forgot password">Forgot Password?</a>
+                <a href="signin.html" aria-label="Sign up">Create an Account</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

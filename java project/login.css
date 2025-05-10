@@ -1,0 +1,111 @@
+.login {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://plus.unsplash.com/premium_photo-1661963646937-1566cbb38d34?q=80&w=1987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://plus.unsplash.com/premium_photo-1661963646937-1566cbb38d34?q=80&w=1987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 2rem 4rem;
+}
+
+.login-container {
+    background-color: rgba(31, 41, 55, 0.95);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.login-container h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    color:white;
+    margin-bottom: 1.5rem;
+}
+
+.loginform {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.loginform label {
+    font-size: 0.9rem;
+    color:white;
+    text-align: left;
+}
+
+.loginform input[type="email"],
+.loginform input[type="password"] {
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.25rem;
+    font-size: 0.9rem;
+    color: #1f2937;
+}
+
+.loginform input:focus {
+    border-color: #a5b4fc;
+    outline: none;
+}
+
+.loginform .checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: #4b5563;
+}
+
+.loginform button {
+    background-color: #1f2937;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.loginform button:hover {
+    background-color: #374151;
+}
+
+.login-links {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.login-links a {
+    color: #a5b4fc;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+.login-links a:hover {
+    text-decoration: underline;
+}
+
+.message {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    display: none;
+}
+
+.message.success {
+    background-color: #d1fae5;
+    color: #065f46;
+}
+
+.message.error {
+    background-color: #fee2e2;
+    color: #991b1b;
+}
